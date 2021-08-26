@@ -1,6 +1,6 @@
 // Seleciona dígitos numéricos com sequência de 5 (\d{5})
-// Seleciona Ou - OU espaço em branco (\s), utilizando seleção de [], além de ser opcional (?)
-// Seleciona os 3 últimos dígitos numéricos (d{3})
+// Seleciona OU - OU espaço em branco (\s), utilizando seleção de [], além de ser opcional (?)
+// Seleciona dígitos numéricos com sequência de 3 (d{3})
 // Flag global g para pegar não apenas o primeiro match
 const regexpCEP = /\d{5}[-\s]?\d{3}/g;
 
