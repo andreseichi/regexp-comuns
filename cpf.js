@@ -3,6 +3,7 @@
 // Agrupa esses 3 dígitos e a seleção de . ou - com sequência de 3 (\d{3}[.-]?){3}
 // Ignora a captura desse grupo (?:)
 // Seleciona dígitos numéricos com sequência de 2 (\d{2})
+// Flag global g para pegar não apenas o primeiro match
 const regexpCPF = /(?:\d{3}[.-]?){3}\d{2}/g;
 
 const cpfs = [
